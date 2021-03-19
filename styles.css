@@ -1,0 +1,570 @@
+
+body {
+  transition: background-color .5s;
+  color: #151515;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #000000;
+
+    
+
+}
+
+/* .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+  
+
+/* @media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} */ 
+
+/* .about{
+    position: relative;
+
+    height: 100%;
+    margin: 10px auto 10px auto;
+    margin: 0;
+    text-align: center;
+    
+}
+
+
+.skill-row{
+    width: 50%;
+    margin:auto;
+    text-align: left;
+    line-height: 1;
+    padding-top: 10px;
+}
+
+.notes{
+   float: right;
+   margin-right: 25px;
+   margin-top: 75px;
+   width: 25%;
+   border-radius: 50%;
+} */
+
+.box{
+  width: 80%;
+  background: #0B0C10;
+  /* background-color: rgba(16, 17, 17, 0.5); */
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+  border-radius: 10px;
+}
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box h1{
+  font-size: 3rem;
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-family: 'Poppins', sans-serif;
+  color: #66fcf1;
+  text-align: center;
+ 
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+}
+
+.box p{
+  text-align: justify;
+  text-align: center;
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+header{
+  font-size: 24px;
+  text-align: center;
+  color: white;
+}
+
+main{
+  margin-left: 90px;
+  
+}
+
+.box1{
+  display: block;
+  float:left;
+  width: 20%;
+  padding: 25px;
+  padding-left: 1px;
+  line-height: 1;
+
+}
+
+img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* img{
+  width: 100%;
+  border-radius: 5px;
+} */
+
+.box1 img:hover{
+  transform:scale(2,2);
+  transition: .5s transform;
+}
+
+
+
+
+
+
+
+.intro{
+    line-height: 2;
+}
+
+.mid{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* h3 {
+    color: #f5f1f1;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  } */
+  
+  para {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #c5c6c7;
+  }
+  
+  .go-corner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    background-color: #66bfbf;
+    border-radius: 0 4px 0 32px;
+  }
+  
+  .go-arrow {
+    margin-top: -4px;
+    margin-right: -4px;
+    color: white;
+    font-family: courier, sans;
+  }
+  
+  .card1 {
+    display: block;
+    position: relative;
+    max-width: 262px;
+    background-color: #f2f8f9;
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+  
+    &:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: -16px;
+      right: -16px;
+      background: #00838d;
+      height: 32px;
+      width: 32px;
+      border-radius: 32px;
+      transform: scale(1);
+      transform-origin: 50% 50%;
+      transition: transform 0.25s ease-out;
+    }
+  
+    &:hover:before {
+      transform: scale(21);
+    }
+  }
+  
+  .card1:hover {
+    p {
+      transition: all 0.3s ease-out;
+      color: rgba(255, 255, 255, 0.8);
+    }
+    h3 {
+      transition: all 0.3s ease-out;
+      color: #ffffff;
+    }
+  }
+  
+  .card2 {
+    display: block;
+    top: 0px;
+    position: relative;
+    max-width: 262px;
+    background-color: #f2f8f9;
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    border: 1px solid #f2f8f9;
+  
+    &:hover {
+      transition: all 0.2s ease-out;
+      box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+      top: -4px;
+      border: 1px solid #cccccc;
+      background-color: white;
+    }
+  
+    &:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: -16px;
+      right: -16px;
+      background: #011618;
+      height: 32px;
+      width: 32px;
+      border-radius: 32px;
+      transform: scale(2);
+      transform-origin: 50% 50%;
+      transition: transform 0.15s ease-out;
+    }
+  
+    &:hover:before {
+      transform: scale(2.15);
+    }
+  }
+  
+  .card3 {
+    display: block;
+    top: 0px;
+    position: relative;
+    max-width: 262px;
+    background-color: #f2f8f9;
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    overflow: hidden;
+    border: 1px solid #f2f8f9;
+    
+    .go-corner {
+      opacity: 0.7;
+    }
+  
+    &:hover {
+      border: 1px solid #0c1a1b;
+      box-shadow: 0px 0px 999px 999px rgba(255, 255, 255, 0.5);
+      z-index: 500;
+    }
+  }
+  
+  .card3:hover {
+    p{color: #00838d}
+    .go-corner {
+      transition: opactiy 0.3s linear;
+      opacity: 1;
+    }
+  }
+  
+  .card4 {
+    display: block;
+    top: 0px;
+    position: relative;
+    max-width: 262px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    overflow: hidden;
+    border: 1px solid #cccccc;
+    
+    .go-corner {
+      background-color: #00838d;
+      height: 100%;
+      width: 16px;
+      padding-right: 9px;
+      border-radius: 0;
+      transform: skew(6deg);
+      margin-right: -36px;
+      align-items: start;
+      background-image: linear-gradient(-45deg, #8F479A 1%, #DC2A74 100%);
+    }
+    
+    .go-arrow {
+      transform: skew(-6deg);
+      margin-left: -2px;
+      margin-top: 9px;
+      opacity: 0;
+    }
+  
+    &:hover {
+      border: 1px solid #CD3D73;
+    }
+    
+    h3 {margin-top: 8px;}
+  }
+  
+  .card4:hover {
+    .go-corner {
+      margin-right: -12px;
+    }
+    .go-arrow {
+      opacity: 1;
+    }
+  }
+
+  .div-2{
+    letter-spacing: 4px;
+      color: #66fcf1;
+      font-size: 3rem;
+      margin-top: 50px;
+      position: relative;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  .exp h1{
+      letter-spacing: 4px;
+      color: #66fcf1;
+      font-size: 3rem;
+      font-family: 'Roboto', sans-serif;
+      position: relative;
+      text-align: center;
+  }
+
+  .center1 {
+    position: relative;
+    background-color: #a6fff2;
+    border-radius: 5px;
+    width: 80%;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+  }
+
+  .center2 {
+    position: relative;
+    background-color: #a6fff2;
+    border-radius: 5px;
+    width: 80%;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+  }
+
+  .center3 {
+    position: relative;
+    background-color: #a6fff2;
+    border-radius: 5px;
+    width: 80%;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+  }
+
+  .small{
+    font-family: 'Century Gothic',sans-serif;
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .edu{
+      position: relative;
+      text-align: center;
+      /* color: #66fcf1; */
+      
+      /* font-size: 3rem; */
+
+  }
+.rook{
+  color: #66bfbf;
+  font-family: 'Century Gothic',sans-serif;
+  font-size: 3rem;
+  letter-spacing: 4px;
+
+}
+  .edus{
+      position: relative;
+      margin-top: 60px;
+      
+  }
+
+.getin{
+  font-family: 'Century Gothic',sans-serif;
+  color: #66bfbf;
+  font-size: 3rem;
+  letter-spacing: 4px;
+}
+  
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-family: 'Century Gothic',sans-serif;
+    letter-spacing: 4px;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  .bottom-container{
+    margin-top: 40px;
+    background-color:#66bfbf ;
+    padding: 50px 0 20px ;
+    
+}
+
+a{
+ color: #000000;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 800;
+ text-decoration: none;
+ margin: 10px 20px ;
+ 
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size:1.2rem ;
+    padding: 20px;
+}
+
+.fab{
+  font-size: 35px;
+}
+
+.exph{
+  font-family: 'Century Gothic',sans-serif;
+  font-size: 2rem;
+}
+
+.expp{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.0rem;
+}
+
+.eduh{
+  font-family: 'Century Gothic',sans-serif;
+  letter-spacing: 1.6px;
+
+}
+
+.edup{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.0rem;
+
+}
+
+
+
+
+
